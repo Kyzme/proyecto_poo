@@ -1,0 +1,3 @@
+Enlace directo al repositorio del proyecto en github.
+
+https://github.com/Kyzme/proyecto_poo
