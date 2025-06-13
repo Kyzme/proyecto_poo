@@ -16,7 +16,8 @@ class UserController:
             # Calculamos el resultado usando el modelo
             resultado = modelo.calcular(funcion, x_rad, a, numero)
             # Mostramos el resultado al usuario usando la función de la vista
-            mostrar_resultado(resultado, x, numero)  # PASAR x y numero aquí
+            mostrar_resultado(resultado, x, numero)
+
         # Llamamos a la vista para pedir los datos al usuario
         # Una vez que el usuario los ingrese, se ejecuta automáticamente la función callback
         pedir_datos(callback)
